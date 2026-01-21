@@ -1,0 +1,8 @@
+.tiles-grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; }
+.tile { border: 1px solid #ccc; padding: 15px; width: 200px; border-radius: 8px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; alignItems: center; }
+.modal-content { background: white; padding: 20px; border-radius: 5px; text-align: center; }
+.error-box { background: #ffe6e6; color: red; padding: 10px; margin-bottom: 10px; border: 1px solid red; }
+button { margin: 5px; padding: 5px 10px; cursor: pointer; }
+.btn-del { background: #ff4d4d; color: white; border: none; }
+.btn-add { display: inline-block; margin: 20px; padding: 10px 20px; background: green; color: white; text-decoration: none; border-radius: 5px; }
